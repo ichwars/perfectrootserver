@@ -14,7 +14,7 @@ if [ ${USE_VSFTPD} == '1' ]; then
 	#Host IP check
 	ip=$(hostname -I)
 	# FTP Port
-	FTP_PORT=$FTP_PORT
+	#FTP_PORT=$FTP_PORT
 	# pasv_min_port / pasv_max_port
 	PASV_PORT="12000:12500"
 	#creating a strong password!
